@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hi there !");
+  res.send("Welcome to Jenkins Training Session!");
 });
 
 app.listen(8080, () => {
